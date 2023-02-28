@@ -1,0 +1,218 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap");
+
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+}
+A {
+  Text-Decoration: None;
+}
+.Hero {
+  Width: 100%;
+  Height: 100%;
+  
+  /* Background: Url(Img/cdlogo.jpg); */
+  Background-Size: Cover;
+}
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 90px;
+}
+.Logo {
+  Max-Height: 60px;
+  width: 15%;
+}
+Nav Ul Li {
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+}
+Nav Ul Li A {
+  Color: black;
+  Position: Relative;
+  font-size: 25px;
+  font-style: bold;
+  Padding: 8px 9px 8px 8px ;
+  size: 40px;
+  font-weight: 500;
+  font-family: serif;
+}
+Nav Ul Li A:hover {
+  Color: #Fd4766;
+}
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: #Fd4766;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+nav .Btn:hover {
+    Background: Transparent;
+    Border-Color: #Fd4766;
+    Color: #Fd4766;
+  }
+.Btn {
+  Color: #Fff;
+  Font-Size: 16px;
+  font-family: serif;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background: #Fd4766;
+  Border: 2px Solid #Fd4766;
+}
+.Btn:hover {
+  Background: Transparent;
+  Border-Color: #Fd4766;
+  Color: #Fd4766;
+}
+.Content {
+  Position: Absolute;
+  Top: 35%;
+  Left: 8%;
+}
+.Content .Title {
+  Color: #0a0a0a;
+  Font-Size: 40px;
+  font-weight: 600;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 4px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+  margin-bottom: 20px;
+  width: max-content;
+ 
+  Background: Linear-Gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #Fd4766 79.69%
+  );
+  -Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+}
+.Content H1 {
+  Color: #af14ba;
+  Font-Size: 50px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 50%;
+  font-family: serif;
+  margin-top: 1px;
+}
+.Content H1 Span {
+  Color: #af14ba;
+  font-family: serif;
+}
+.Content P {
+  Width: 55%;
+  font-family: serif;
+  Color: #202020;
+  Margin-Top: 15 px;
+  Margin-Bottom: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background:	rgb(242, 201, 250);
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+
+}
+.snow1
+{
+    background: url(snow.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 635px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animate1 60s infinite linear;
+}
+.snow2
+{
+    background: url(snow.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 635px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animate2 30s infinite linear;
+    background-size: 300px;
+    filter: blur(1px);
+}
+.snow3
+{
+    background: url(snow.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 635px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animate3 10s infinite linear;
+    background-size: 800px;
+    filter: blur(2px);
+
+
+}
+@keyframes animate1
+{
+    0%
+    {
+        background-position: 0px 0px;
+    }
+    100%
+    {
+        background-position: 100px 635px;
+    }
+
+}
+@keyframes animate2
+{
+    0%
+    {
+        background-position: 0px -100px;
+    }
+    100%
+    {
+        background-position: 0px 635px;
+    }
+
+}
+@keyframes animate3
+{
+    0%
+    {
+        background-position: 0px 100px;
+    }
+    100%
+    {
+        background-position: 300px 635px;
+    }
+
+}
